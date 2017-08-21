@@ -4,3 +4,13 @@ title = "chryb's blog"
 theme = "hugo-theme-cactus-plus"
 Copyright = "All rights reserved - 2017"
 publishDir = "docs"
+
+[params]
+	# Enter optionally your twitter account
+	twitter = "chryb_"
+	enableRSS = false
+
+	# Disqus comment
+	disqusShortname = "chryb"
+	# Disable disqus comments by set `enableDisqus = "false"`
+	enableDisqus = true
