@@ -1,5 +1,5 @@
-baseURL = "https://chryb.github.io/chryb-blog"
+baseURL = "https://chryb.github.io"
 languageCode = "en-us"
-title = "My Blog"
+title = "chryb's blog"
 theme = "hugo-theme-cactus-plus"
 Copyright = "All rights reserved - 2017"
