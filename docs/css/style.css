@@ -357,6 +357,7 @@ em, i {
     font: normal 13px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: -5px 0 0 0;
     color: #b2b9be;
+    color: rgba(255, 255, 255, .4);
     font-size: 13px;
     letter-spacing: 1px;
     display: inline-block;
@@ -564,6 +565,8 @@ Post List
 
 #footer .small {
   color: rgba(255, 255, 255, .2);
+  font-weight: 400;
+  font-family: "Helvetica Neue", helvetica, Arial, sans-serif !important;
 }
 
 
