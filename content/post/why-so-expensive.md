@@ -10,6 +10,7 @@ categories = [
     "Meta"
 ]
 menu = "main"
+hidden = true
 +++
 
 ### I'm curious about the prices for some markdown editors at the app store. So I made my own one (and because I have the core from my previous project Stack).
@@ -21,7 +22,7 @@ They are good, no question
 - caret
 - ulyssis
 - marked
-- 
+-
 
 Features
 

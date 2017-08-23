@@ -10,6 +10,7 @@ categories = [
     "Meta"
 ]
 menu = "main"
+hidden = true
 +++
 
 ### Currently, I'm working on an interesting project based on a university course. It should answer the question if it is possible to combine a good user experience with pattern recognition on n-dimensional time series.
