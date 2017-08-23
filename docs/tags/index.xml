@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on chryb&#39;s blog</title>
-    <link>http://blog.chryb.me/tags/</link>
+    <link>https://chryb.github.io/chryb-blog/tags/</link>
     <description>Recent content in Tags on chryb&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Wed, 23 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.chryb.me/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chryb.github.io/chryb-blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Aboutme</title>
-      <link>http://blog.chryb.me/tags/aboutme/</link>
+      <link>https://chryb.github.io/chryb-blog/tags/aboutme/</link>
       <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.chryb.me/tags/aboutme/</guid>
+      <guid>https://chryb.github.io/chryb-blog/tags/aboutme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta</title>
-      <link>http://blog.chryb.me/tags/meta/</link>
+      <link>https://chryb.github.io/chryb-blog/tags/meta/</link>
       <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.chryb.me/tags/meta/</guid>
+      <guid>https://chryb.github.io/chryb-blog/tags/meta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Patternflow</title>
-      <link>http://blog.chryb.me/tags/patternflow/</link>
+      <link>https://chryb.github.io/chryb-blog/tags/patternflow/</link>
       <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.chryb.me/tags/patternflow/</guid>
+      <guid>https://chryb.github.io/chryb-blog/tags/patternflow/</guid>
       <description></description>
     </item>
     
