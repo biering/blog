@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2017</copyright>
-    <lastBuildDate>Mon, 21 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Aug 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://chryb.github.io/chryb-blog/tags/aboutme/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why so expensive?</title>
+      <link>https://chryb.github.io/chryb-blog/post/why-so-expensive/</link>
+      <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chryb.github.io/chryb-blog/post/why-so-expensive/</guid>
+      <description>I&amp;rsquo;m curious about the prices for some markdown editors at the app store. So I made my own one (and because I have the core from my previous project Stack). If you look some projects on the app store for example
+They are good, no question
+ caret ulyssis marked   Features
+file system support</description>
+    </item>
     
     <item>
       <title>Let&#39;s Get Started</title>
@@ -19,7 +31,7 @@
       
       <guid>https://chryb.github.io/chryb-blog/post/lets-get-started/</guid>
       <description>Hello, my name is Christoph Biering. I&amp;rsquo;m here to start a blog about programming, nerdy stuff and my side projects. But first of all, I will write a bit about me and why I&amp;rsquo;m creating a blog.  Don&amp;rsquo;t be too hard to me.
- I do not speak native English. I&amp;rsquo;m not a professional writer, I&amp;rsquo;m not a person of many words and I don&amp;rsquo;t even think that I&amp;rsquo;m good at writing.</description>
+ I&amp;rsquo;m not a native English speaker. I&amp;rsquo;m not a professional writer nor a person of many words and I don&amp;rsquo;t even think that I&amp;rsquo;m good at writing at all.</description>
     </item>
     
   </channel>
