@@ -257,10 +257,14 @@ a, #title, #post-list a:hover, #title:hover {
 p a {
     color: #5694f1;
     color: #EC368D;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: border-color .4s;
+    text-decoration: none;
 }
 
 p a:hover {
-  text-decoration: underline;
+  border-color: #EC368D;
+  transition: border-color .4s;
 }
 
 

@@ -10,6 +10,7 @@ categories = [
     "Meta"
 ]
 menu = "main"
+hidden = true
 +++
 
 ### Currently, I'm working on a interesting project. It should answer the question for user-friendly pattern recognition on n-dimensional time series as a service.
