@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on chryb&#39;s blog</title>
-    <link>https://chryb.github.io/chryb-blog/categories/</link>
+    <link>http://blog.chryb.me/categories/</link>
     <description>Recent content in Categories on chryb&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2017</copyright>
     
-	<atom:link href="https://chryb.github.io/chryb-blog/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.chryb.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Meta</title>
-      <link>https://chryb.github.io/chryb-blog/categories/meta/</link>
+      <link>http://blog.chryb.me/categories/meta/</link>
       <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://chryb.github.io/chryb-blog/categories/meta/</guid>
+      <guid>http://blog.chryb.me/categories/meta/</guid>
       <description></description>
     </item>
     
