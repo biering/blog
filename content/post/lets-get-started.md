@@ -33,7 +33,7 @@ programming comes from.
 I'm always very interested to learn new technologies and techniques to improve my productivity. My list "Things I should learn" is constantly growing. Recently, I'm in passion with [Vue.js](https://vuejs.org/) and [Electron](https://electron.atom.io/) to build applications for Web and Desktop.
 I'm always trying to focus on code and design, because even if I primarily interested in software engineering, in my opinion, an application is not ready before it looks good.
 
-![code image](/chryb-blog/img/luca-bravo-217276.jpg "Photo by Luca Bravo on Unsplash")
+![code image](/img/luca-bravo-217276.jpg "Photo by Luca Bravo on Unsplash")
 
 Before I started to study I've learned the basics of programming with some Minecraft plugins in Java. I think the best
 one was [Market](https://github.com/chryb/Market).

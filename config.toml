@@ -1,4 +1,4 @@
-baseURL = "https://chryb.github.io/chryb-blog/"
+baseURL = "http://blog.chryb.me/"
 languageCode = "en-us"
 title = "chryb's blog"
 theme = "hugo-theme-cactus-plus"

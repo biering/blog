@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Patternflow on chryb&#39;s blog</title>
-    <link>https://chryb.github.io/chryb-blog/tags/patternflow/</link>
+    <link>http://blog.chryb.me/tags/patternflow/</link>
     <description>Recent content in Patternflow on chryb&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Tue, 22 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://chryb.github.io/chryb-blog/tags/patternflow/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.chryb.me/tags/patternflow/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>User-Friendly Pattern Recognition</title>
-      <link>https://chryb.github.io/chryb-blog/post/user-friendly-pattern-recognition/</link>
+      <link>http://blog.chryb.me/post/user-friendly-pattern-recognition/</link>
       <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://chryb.github.io/chryb-blog/post/user-friendly-pattern-recognition/</guid>
+      <guid>http://blog.chryb.me/post/user-friendly-pattern-recognition/</guid>
       <description> Currently, I&amp;rsquo;m working on an interesting project based on a university course. It should answer the question if it is possible to combine a good user experience with pattern recognition on n-dimensional time series. Background Before I start with the project I want to write a bit about the definitions.
 Problems lala test
  select n-dim data import data / smooth / simplify data visualization algo selection  </description>
