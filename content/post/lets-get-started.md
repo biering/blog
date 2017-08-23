@@ -5,7 +5,7 @@ tags = [
     "aboutme",
     "meta"
 ]
-date = "2017-08-21"
+date = "2017-08-21T14:00:37+02:00"
 categories = [
     "Meta"
 ]
