@@ -1,5 +1,5 @@
 +++
-title = "Lets Get Started"
+title = "Let's Get Started"
 description = "Hello World - An intro to this blog."
 tags = [
     "aboutme",
