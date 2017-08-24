@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meta on chryb&#39;s blog</title>
-    <link>http://blog.chryb.me/tags/meta/</link>
+    <link>https://chryb.github.io/blog/tags/meta/</link>
     <description>Recent content in Meta on chryb&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Wed, 23 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.chryb.me/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chryb.github.io/blog/tags/meta/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Why so expensive?</title>
-      <link>http://blog.chryb.me/post/why-so-expensive/</link>
+      <link>https://chryb.github.io/blog/post/why-so-expensive/</link>
       <pubDate>Wed, 23 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.chryb.me/post/why-so-expensive/</guid>
+      <guid>https://chryb.github.io/blog/post/why-so-expensive/</guid>
       <description>I&amp;rsquo;m curious about the prices for some markdown editors at the app store. So I made my own one (and because I have the core from my previous project Stack). If you look some projects on the app store for example
 They are good, no question
  caret ulyssis marked -  Features
@@ -26,10 +26,10 @@ file system support</description>
     
     <item>
       <title>User-Friendly Pattern Recognition</title>
-      <link>http://blog.chryb.me/post/user-friendly-pattern-recognition/</link>
+      <link>https://chryb.github.io/blog/post/user-friendly-pattern-recognition/</link>
       <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.chryb.me/post/user-friendly-pattern-recognition/</guid>
+      <guid>https://chryb.github.io/blog/post/user-friendly-pattern-recognition/</guid>
       <description> Currently, I&amp;rsquo;m working on an interesting project based on a university course. It should answer the question if it is possible to combine a good user experience with pattern recognition on n-dimensional time series. Background Before I start with the project I want to write a bit about the definitions.
 Problems lala test
  select n-dim data import data / smooth / simplify data visualization algo selection  </description>
@@ -37,10 +37,10 @@ Problems lala test
     
     <item>
       <title>Let&#39;s Get Started</title>
-      <link>http://blog.chryb.me/post/lets-get-started/</link>
+      <link>https://chryb.github.io/blog/post/lets-get-started/</link>
       <pubDate>Mon, 21 Aug 2017 14:00:37 +0200</pubDate>
       
-      <guid>http://blog.chryb.me/post/lets-get-started/</guid>
+      <guid>https://chryb.github.io/blog/post/lets-get-started/</guid>
       <description>Hello, my name is Christoph Biering. I&amp;rsquo;m here to start a blog about programming, nerdy stuff and my side projects. But first of all, I will write a bit about me and why I&amp;rsquo;m creating a blog.  Don&amp;rsquo;t be too hard to me.
  I&amp;rsquo;m not a native English speaker. I&amp;rsquo;m not a professional writer nor a person of many words and I don&amp;rsquo;t even think that I&amp;rsquo;m good at writing at all.</description>
     </item>
