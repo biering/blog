@@ -340,10 +340,11 @@ em, i {
 
 .post header {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .post h1 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #fff;
     font: 60px/1.4em "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
