@@ -48,15 +48,17 @@
                     </h1>
                     <h2 class="headline">
                     Aug 22, 2017 00:00
-                    · 66 words
-                    · 1 minute read
+                    · 372 words
+                    · 2 minutes read
                       <span class="tags">
                       
                       
                           
                               <a href="https://chryb.github.io/blog/tags/patternflow">patternflow</a>
                           
-                              <a href="https://chryb.github.io/blog/tags/meta">meta</a>
+                              <a href="https://chryb.github.io/blog/tags/machine-learning">machine learning</a>
+                          
+                              <a href="https://chryb.github.io/blog/tags/pattern-recognition">pattern recognition</a>
                           
                       
                       
@@ -73,9 +75,33 @@
 
 <p>Before I start with the project I want to write a bit about the definitions.</p>
 
-<h2 id="problems">Problems</h2>
+<h4 id="time-series">Time series</h4>
 
-<p>lala test</p>
+<blockquote>
+<p>A time series is a series of data points indexed (or listed or graphed) in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time. (according to <a href="https://en.wikipedia.org/wiki/Time_series">wikipedia</a>)</p>
+</blockquote>
+
+<p>In our case</p>
+
+<h4 id="pattern-recognition">Pattern Recognition</h4>
+
+<blockquote>
+<p>Pattern recognition is technique in machine learning to&hellip;</p>
+</blockquote>
+
+<h2 id="why-i-m-doing-this">Why I&rsquo;m doing this</h2>
+
+<p>The application should be capable of taking n series of data, learning patterns from the structure and later predict a pattern on the whole data.
+But this is a way too abstract case so for a better understanding i got the following use case.</p>
+
+<p>I&rsquo;ve heard a lot about that it is very hard to train robots in industry new task. Often they are used for one specific task and if they should do something else a lot of code is rewritten.
+Therefore it should be exists a better way to train a robot a new task. And therefore we need a way to observe the behaviour of the robot to prevent him from destroying everything.
+The robot produces a lot of data based on his sensors. These data can be seen as time series with a specific interval between each data tick.</p>
+
+<p>That&rsquo;s currently the vision of patternflow. It uses recorded example data of different robot scenarios and train them to specific patterns. For example the robot grips something successfully or he has a collision with a wall. (Umso öfter man verschiedene szenarios antrainiert, umso genauer die aussage).
+After you trained the patterns you can connect the live data from the robot (via websocket) with patternflow and get notified about the events the robot is doing.</p>
+
+<h2 id="what-technologies-i-m-using">What technologies I&rsquo;m using</h2>
 
 <ul>
 <li>select n-dim data</li>
@@ -83,6 +109,22 @@
 <li>visualization</li>
 <li>algo selection</li>
 </ul>
+
+<p>I&rsquo;m just not doing more than that:</p>
+
+<pre><code class="language-javascript">// init
+const data = Importer(data)
+const graph = patternflow.graph(data)
+graph.render()
+
+// train
+graph.addPattern(4, 50, 'grip')
+graph.addPattern(60, 73, 'collision')
+
+// reason
+const result = patternflow.reason(data)
+result.show()
+</code></pre>
 
                 </section>
             </article>
@@ -130,6 +172,17 @@
 
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-91859000-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-91859000-3');
+</script>
 
 
 

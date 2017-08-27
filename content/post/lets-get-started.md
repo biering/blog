@@ -3,7 +3,8 @@ title = "Let's Get Started"
 description = "Hello World - An intro to this blog."
 tags = [
     "aboutme",
-    "meta"
+    "meta",
+    "offtopic"
 ]
 date = "2017-08-21T14:00:37+02:00"
 categories = [

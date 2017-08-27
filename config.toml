@@ -4,6 +4,7 @@ title = "chryb's blog"
 theme = "hugo-theme-cactus-plus"
 Copyright = "All rights reserved - 2017"
 publishDir = "docs"
+enableGoogleAnalytics = true
 
 [params]
 	# Enter optionally your twitter account

@@ -223,9 +223,9 @@ nav.main-nav a.cta {
 }
 
 #wrapper {
-    max-width: 700px;
+    max-width: 740px;
     margin: 0 auto;
-    padding: 60px 40px 100px 40px;
+    padding: 60px 20px 100px 20px;
 }
 
 #wrapper.home {
@@ -395,7 +395,7 @@ em, i {
 }
 
 h3, h4, h5 {
-    color: #333;
+    color: #ccc;
 }
 
 h3 {
