@@ -25,16 +25,6 @@ file system support</description>
     </item>
     
     <item>
-      <title>User-Friendly Pattern Recognition</title>
-      <link>https://chryb.github.io/blog/post/user-friendly-pattern-recognition/</link>
-      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://chryb.github.io/blog/post/user-friendly-pattern-recognition/</guid>
-      <description>Currently, I&amp;rsquo;m working on an interesting project based on a university course. It should answer the question if it is possible to combine a good user experience with pattern recognition on n-dimensional time series. Background Before I start with the project I want to write a bit about the definitions.
-Time series  A time series is a series of data points indexed (or listed or graphed) in time order.</description>
-    </item>
-    
-    <item>
       <title>Let&#39;s Get Started</title>
       <link>https://chryb.github.io/blog/post/lets-get-started/</link>
       <pubDate>Mon, 21 Aug 2017 14:00:37 +0200</pubDate>

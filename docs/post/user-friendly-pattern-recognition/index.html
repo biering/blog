@@ -47,9 +47,9 @@
                         User-Friendly Pattern Recognition
                     </h1>
                     <h2 class="headline">
-                    Aug 22, 2017 00:00
-                    · 372 words
-                    · 2 minutes read
+                    Aug 22, 2017 14:00
+                    · 1067 words
+                    · 6 minutes read
                       <span class="tags">
                       
                       
@@ -60,6 +60,8 @@
                           
                               <a href="https://chryb.github.io/blog/tags/pattern-recognition">pattern recognition</a>
                           
+                              <a href="https://chryb.github.io/blog/tags/project">project</a>
+                          
                       
                       
                       </span>
@@ -69,62 +71,112 @@
                 <section id="post-body">
                     
 
-<h3 id="currently-i-m-working-on-an-interesting-project-based-on-a-university-course-it-should-answer-the-question-if-it-is-possible-to-combine-a-good-user-experience-with-pattern-recognition-on-n-dimensional-time-series">Currently, I&rsquo;m working on an interesting project based on a university course. It should answer the question if it is possible to combine a good user experience with pattern recognition on n-dimensional time series.</h3>
+<h3 id="currently-i-m-working-on-an-interesting-project-that-started-as-an-internal-university-internship-basically-it-can-be-described-as-pattern-recognition-as-a-service">Currently, I&rsquo;m working on an interesting project that started as an internal university internship. Basically, it can be described as pattern recognition as a service.</h3>
+
+<p>I was very happy with the project task because even if I&rsquo;m new to machine learning I&rsquo;m very interested in it. I also like to build user-friendly applications and play around with some visualizations. So I decided to do it.</p>
 
 <h2 id="background">Background</h2>
 
-<p>Before I start with the project I want to write a bit about the definitions.</p>
-
-<h4 id="time-series">Time series</h4>
+<p>Before we go further, here are some definitions to be sure we have the same ideas in mind.</p>
 
 <blockquote>
-<p>A time series is a series of data points indexed (or listed or graphed) in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time. (according to <a href="https://en.wikipedia.org/wiki/Time_series">wikipedia</a>)</p>
+<p>A <strong>time series</strong> is a series of data points indexed (or listed or graphed) in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time, according to <a href="https://en.wikipedia.org/wiki/Time_series">wikipedia</a>.</p>
 </blockquote>
 
-<p>In our case</p>
+<p>In our case it&rsquo;s basically an array of numbers.</p>
 
-<h4 id="pattern-recognition">Pattern Recognition</h4>
+<p><img src="/blog/img/pf-img-01.png" alt="pf01" /></p>
 
-<blockquote>
-<p>Pattern recognition is technique in machine learning to&hellip;</p>
-</blockquote>
+<p>We see already at least two or three showy patterns in the chart above. But the goal is that the application is capable of finding these trained patterns. This is basically called <strong>pattern recognition</strong>.</p>
 
-<h2 id="why-i-m-doing-this">Why I&rsquo;m doing this</h2>
+<h2 id="the-problem-to-solve-at-least-in-future">The problem to solve (at least in future)</h2>
 
-<p>The application should be capable of taking n series of data, learning patterns from the structure and later predict a pattern on the whole data.
-But this is a way too abstract case so for a better understanding i got the following use case.</p>
+<p>The first question which should everyone come in mind is what&rsquo;s the use case, <strong>what&rsquo;s the problem this application tries to solve</strong>.</p>
 
-<p>I&rsquo;ve heard a lot about that it is very hard to train robots in industry new task. Often they are used for one specific task and if they should do something else a lot of code is rewritten.
-Therefore it should be exists a better way to train a robot a new task. And therefore we need a way to observe the behaviour of the robot to prevent him from destroying everything.
-The robot produces a lot of data based on his sensors. These data can be seen as time series with a specific interval between each data tick.</p>
+<p>The use case I got from my advisor comes from his field of work, robotics.
+I&rsquo;ve heard a lot about that it is very hard and expensive to train robots new tasks in the current industrial world. Often the code is hardcoded for specific tasks and needs to be rewritten every time the robot should perform another task. I have no valid source for this statement but I think it&rsquo;s right.
+Therefore it should exist an easier way to train a robot a new task and one requirement for this goal is to observe the behavior of the robot and be able to react to different events and situations.</p>
 
-<p>That&rsquo;s currently the vision of patternflow. It uses recorded example data of different robot scenarios and train them to specific patterns. For example the robot grips something successfully or he has a collision with a wall. (Umso öfter man verschiedene szenarios antrainiert, umso genauer die aussage).
-After you trained the patterns you can connect the live data from the robot (via websocket) with patternflow and get notified about the events the robot is doing.</p>
+<p>For example, the robot grips a box and move it to another position. We need a way to detect if the robot misgripped the box or collides with something based on his sensor data to at least notify a human about his misbehavior. This is even more important if the robot should perform various not hardcoded tasks.
+The robot produces a lot of data based on his sensors. This data can be seen as time series with a specific interval between each data tick.</p>
 
-<h2 id="what-technologies-i-m-using">What technologies I&rsquo;m using</h2>
+<p>Theoretically there should be a large number of other use cases, immer if pattern &hellip;</p>
+
+<h2 id="diving-deeper-into-the-challenges">Diving deeper into the challenges</h2>
+
+<p>Within the requirements of the internship the application I&rsquo;ll call it <strong>Patternflow</strong> from now on should have the ability:</p>
 
 <ul>
-<li>select n-dim data</li>
-<li>import data / smooth / simplify data</li>
-<li>visualization</li>
-<li>algo selection</li>
+<li>to use multiple time series in one graph and combine them in the training set if necessary</li>
+<li>to create different patterns which take as many training sets as the user want</li>
+<li>to display that data in an interactive visualization</li>
+<li>to import data from a file with recorded values from <code>json</code> and <code>csv</code></li>
+<li>to let the user select from different algorithms for the metric calculation and the pattern classification</li>
+<li>to reason about the whole graph and find patterns based on a threshold</li>
+<li>to reason about a selected window and find the nearest pattern</li>
 </ul>
 
-<p>I&rsquo;m just not doing more than that:</p>
+<p>I think this list gives a good summary of the features I&rsquo;ve implemented during my internship.
+If you are more in code that&rsquo;s basically what Patternflow does now:</p>
 
 <pre><code class="language-javascript">// init
-const data = Importer(data)
+const data = DataImporter('training-record.csv')
 const graph = patternflow.graph(data)
 graph.render()
 
 // train
-graph.addPattern(4, 50, 'grip')
-graph.addPattern(60, 73, 'collision')
+graph.addPattern(selection, 'grip')
+graph.addPattern(anotherSelection, 'collision')
 
 // reason
-const result = patternflow.reason(data)
+const result = patternflow.reason(selection, algorithms)
 result.show()
 </code></pre>
+
+<p>Just joking, it&rsquo;s a bit more complex than that, but I hope you got the point.</p>
+
+<p>One challenge was the deep data tree. One instance has n-patterns which have again n-training data sets. Every data set can have multiple dimensions of data as seen in the figure below.</p>
+
+<p><img src="/blog/svg/pf-entities.svg" alt="pf02" /></p>
+
+<p>Unfortunately, the stored data is not in the same structure as the graph nor in the form I&rsquo;m using to create the distances between data or classifications.</p>
+
+<p>Another problem comes in when I first tested the application with some live data recorded from a robot arm. Even a simple grip produces 2600+ data points for only one dimension of data. Obviously, with that amount of data, there are serious performance issues and I was not able to select the data anymore.
+Therefore I needed to smooth and simplify the data points. After a bit of searching I figured out how I can smooth the data with the <a href="http://wresch.github.io/2014/06/26/savitzky-golay.html">Savitzky Golay filter</a> and simplify the data with the <a href="https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm">Ramer Douglas Peuker algorithm</a>. With that I was able to transform this graph:</p>
+
+<p><img src="/blog/img/pf-img-03.png" alt="pf03" /></p>
+
+<p>to this graph:</p>
+
+<p><img src="/blog/img/pf-img-04.png" alt="pf04" /></p>
+
+<p>The important point here is to preserve the original structure of the graph to train the patterns correctly.</p>
+
+<h3 id="who-cares-about-the-technology-tl-tr">Who cares about the technology - TL;TR</h3>
+
+<p>The project is written in modern Javascript (ES6+) build on top of <a href="https://vuejs.org/">Vue.js</a>. This allows me to easily bind reactive data to the views which help me a lot to behold the structure of the project.</p>
+
+<p>For the internship, it is only a prototype and I decided to focus on the functionality, that&rsquo;s the reason I only created a frontend. The data is stored in a <a href="https://vuex.vuejs.org/">Vuex</a> store inspired by <a href="https://facebook.github.io/flux/docs/overview.html">Flux</a>. But it isn&rsquo;t so hard to make it persistent though.</p>
+
+<p>I&rsquo;m using <a href="http://c3js.org/">c3</a> to generate the chart and interact with it. It&rsquo;s a really awesome library which I would recommend to everyone who needs this sort of visualization.</p>
+
+<p>The prototype of Patternflow calculates the differences between the time series with the <a href="https://en.wikipedia.org/wiki/Dynamic_time_warping">Dynamic Time Warping</a> algorithm and classify the most likely pattern with the k-nearest neighbor algorithm, but it is possible to select and specify other algorithms.</p>
+
+<h2 id="vision">Vision</h2>
+
+<p>I could imagine to work further on this project. I think it is a really interesting topic and there are thousends of open tasks.</p>
+
+<p>One important thing is to implement an interface to analyze live data (send per websocket)</p>
+
+<p>With that there comes a tradeoff that the machine learning algorithms like the
+- todo python server for machine learning
+- nuxtjs frontend</p>
+
+<p>That&rsquo;s currently the vision of patternflow. It uses recorded example data of different robot scenarios and train them to specific patterns. For example the robot grips something successfully or he has a collision with a wall. (Umso öfter man verschiedene szenarios antrainiert, umso genauer die aussage).
+After you trained the patterns you can connect the live data from the robot (via websocket) with patternflow and get notified about the events the robot is doing.</p>
+
+<p>nuxt js port, live data
+refactoring, ux improvement</p>
 
                 </section>
             </article>
