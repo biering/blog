@@ -15,7 +15,7 @@ menu = "main"
 hidden = true
 +++
 
-### Currently, I'm working on an interesting project that started as an internal university internship. Basically, it can be described as pattern recognition as a service.
+### Currently, I'm working on an interesting project that started as an internal university internship. As the title implies, it has something todo with pattern-recognition, an app. can be described as pattern recognition as a service.
 
 I was very happy with the project task because even if I'm new to machine learning I'm very interested in it. I also like to build user-friendly applications and play around with some visualizations. So I decided to do it.
 
