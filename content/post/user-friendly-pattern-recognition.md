@@ -12,6 +12,7 @@ categories = [
     "Project Presentation"
 ]
 menu = "main"
+hidden = true
 +++
 
 ### Currently, I'm working on an interesting project that started as an internal university internship. As the title implies, it has something todo with pattern-recognition, an app. can be described as pattern recognition as a service.
