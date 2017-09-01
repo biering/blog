@@ -12,12 +12,13 @@ categories = [
     "Project Presentation"
 ]
 menu = "main"
-hidden = true
 +++
 
 ### Currently, I'm working on an interesting project that started as an internal university internship. As the title implies, it has something todo with pattern-recognition, an app. can be described as pattern recognition as a service.
 
 I was very happy with the project task because even if I'm new to machine learning I'm very interested in it. I also like to build user-friendly applications and play around with some visualizations. So I decided to do it.
+
+In this post I will go through the idea, the concept and the implementation of the project.
 
 ## Background
 
@@ -36,10 +37,10 @@ We see already at least two or three showy patterns in the chart above. But the 
 The first question which should everyone come in mind is what's the use case, **what's the problem this application tries to solve**.
 
 The use case I got from my advisor comes from his field of work, robotics.
-I've heard a lot about that it is very hard and expensive to train robots new tasks in the current industrial world. Often the code is hardcoded for specific tasks and needs to be rewritten every time the robot should perform another task. I have no valid source for this statement but I think it's right.
+I've heard a lot about that it is very hard and expensive to train robots new tasks in the current industrial world. Often the code is hardcoded for specific tasks and needs to be rewritten every time the robot should perform another task.
 Therefore it should exist an easier way to train a robot a new task and one requirement for this goal is to observe the behavior of the robot and be able to react to different events and situations.
 
-For example, the robot grips a box and move it to another position. We need a way to detect if the robot misgripped the box or collides with something based on his sensor data to at least notify a human about his misbehavior. This is even more important if the robot should perform various not hardcoded tasks.
+For example, the robot grips a box and moves it to another position. We need a way to detect if the robot misgripped the box or collides with something based on his sensor data to at least notify a human about his misbehavior. This is even more important if the robot should perform various not hardcoded tasks.
 The robot produces a lot of data based on his sensors. This data can be seen as time series with a specific interval between each data tick.
 
 Theoretically there should be a large number of other use cases, immer if pattern ...
@@ -101,9 +102,17 @@ For the internship, it is only a prototype and I decided to focus on the functio
 
 I'm using [c3](http://c3js.org/) to generate the chart and interact with it. It's a really awesome library which I would recommend to everyone who needs this sort of visualization.
 
+The user can choose between two modes, **learn** and **observe**. Basically, in the learn mode he can add selected data sets to the patterns to train them as seen in the figure below.
+
+![pf05](/blog/img/pf-img-05.png)
+
 The prototype of Patternflow calculates the differences between the time series with the [Dynamic Time Warping](https://en.wikipedia.org/wiki/Dynamic_time_warping) algorithm and classify the most likely pattern with the k-nearest neighbor algorithm, but it is possible to select and specify other algorithms.
 
-## Vision
+![pf06](/blog/img/pf-img-06.png)
+
+_erklärung der berechnung des knn mit dtw_
+
+## What's planned for the future?
 
 I could imagine to work further on this project. I think it is a really interesting topic and there are thousends of open tasks.
 
